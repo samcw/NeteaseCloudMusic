@@ -1,0 +1,10 @@
+.slideCardDot {
+  display: inline-block;
+  background-color: rgb(153, 153, 153);
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+}
+.active {
+  background-color: rgb(199, 72, 72);
+}

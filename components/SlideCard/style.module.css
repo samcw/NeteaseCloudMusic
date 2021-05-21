@@ -1,0 +1,34 @@
+.slideCard {
+  margin-top: 20px;
+  position: relative;
+  padding-top: 20%;
+}
+
+.slideImg {
+  width: 100%;
+}
+
+.slideCardDotWrap {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.middle {
+  transform: translate(-50%, 0) scale(1);
+  z-index: 2;
+}
+
+.left {
+  transform: translate(-110%, 0) scale(0.8);
+}
+
+.right {
+  transform: translate(10%, 0) scale(0.8);
+}
+
+.hidden {
+  transform: translate(-50%, 0) scale(1);
+  visibility: hidden;
+}

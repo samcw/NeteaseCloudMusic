@@ -32,3 +32,11 @@
   width: 100%;
   background-color: hsla(0,0%,97.3%,.95);
 }
+
+.main {
+  width: calc(100vw - 200px);
+  height: calc(100vh - 60px - 80px);
+  margin: 60px 0 80px 200px;
+  display: flex;
+  justify-content: center;
+}

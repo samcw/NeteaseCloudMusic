@@ -7,5 +7,7 @@ declare interface IBannerItem {
   imageUrl: string,
   scm: string,
   url: string,
-  typeTitle: string
+  typeTitle: string,
+  targetId: number,
+  targetType: number
 }
