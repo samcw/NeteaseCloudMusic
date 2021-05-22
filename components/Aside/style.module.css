@@ -1,0 +1,48 @@
+.profile {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.profile > div:first-child {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+  background-color: #ccc;
+  color: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.profile > div:nth-child(2) {
+  line-height: 0;
+}
+.profile > div > svg {
+  fill: #dcdcdc;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menuTitle {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-size: 12px;
+  color: rgb(139, 138, 138);
+  padding-left: 10px;
+}
+.menuItem {
+  height: 50px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  color: rgb(77, 77, 77);
+  font-size: 15px;
+  line-height: 0;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background-color: #d8d7d7;
+}

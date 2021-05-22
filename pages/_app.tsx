@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import Head from 'next/head'
 import Header from '../components/Header/index'
+import Aside from '../components/Aside/index'
+import PlayBar from '../components/PlayBar/index'
 import styles from './style.module.css'
 
 function MyApp({ Component, pageProps }) {
@@ -15,10 +17,10 @@ function MyApp({ Component, pageProps }) {
         <Header />
       </header>
       <aside className={styles.leftSide}>
-
+        <Aside />
       </aside>
       <div className={styles.playBar}>
-
+        <PlayBar />
       </div>
       <main className={styles.main}>
         <Component {...pageProps} />
