@@ -4,7 +4,7 @@ import axios, { AxiosRequestConfig } from 'axios'
 export function net(config: AxiosRequestConfig) {
   const http = axios.create({
     //axios全局配置，bashURL设置代理
-    baseURL: 'http://localhost:4000',
+    baseURL: 'https://netease-cloud-music-api-khaki-nine.vercel.app/',
     // baseURL: 'http://59.68.29.108:19905/api/1.0/',
     timeout: 30000
   });

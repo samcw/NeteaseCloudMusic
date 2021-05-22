@@ -30,7 +30,11 @@
   top: 0;
   height: 60px;
   width: 100%;
-  background-color: hsla(0,0%,97.3%,.95);
+  /* background-color: hsla(0,0%,97.3%,.95); */
+  background-color: #242424;
+
+  display: flex;
+  align-items: center;
 }
 
 .main {
@@ -40,3 +44,4 @@
   display: flex;
   justify-content: center;
 }
+

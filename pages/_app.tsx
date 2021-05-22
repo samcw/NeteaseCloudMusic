@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import Header from '../components/Header/index'
 import styles from './style.module.css'
 
 function MyApp({ Component, pageProps }) {
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.head}>
-
+        <Header />
       </header>
       <aside className={styles.leftSide}>
 

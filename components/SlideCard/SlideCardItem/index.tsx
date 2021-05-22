@@ -11,6 +11,9 @@ export default function SlideCardItem({
   return (
     <div className={cn(className, styles.bannerItem)}>
       <img src={banner.imageUrl} alt="imageUrl" loading="lazy" />
+      <div className={styles.bannerItemTitle}>
+        { banner.typeTitle }
+      </div>
     </div>
   );
 }

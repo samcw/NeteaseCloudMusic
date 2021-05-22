@@ -16,4 +16,16 @@
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
+}
+.bannerItemTitle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px 8px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
