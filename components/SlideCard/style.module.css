@@ -16,19 +16,19 @@
 }
 
 .middle {
-  transform: translate(-50%, 0) scale(1);
+  transform: translate(-50%, 0) scale(1) !important;
   z-index: 2;
 }
 
 .left {
-  transform: translate(-110%, 0) scale(0.8);
+  transform: translate(-110%, 0) scale(0.8) !important;
 }
 
 .right {
-  transform: translate(10%, 0) scale(0.8);
+  transform: translate(10%, 0) scale(0.8) !important;
 }
 
 .hidden {
-  transform: translate(-50%, 0) scale(1);
+  transform: translate(-50%, 0) scale(1) !important;
   visibility: hidden;
 }

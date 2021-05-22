@@ -9,7 +9,7 @@ export default function SlideCardItem({
   className: string
 }) {
   return (
-    <div className={cn(styles.bannerItem, className)}>
+    <div className={cn(className, styles.bannerItem)}>
       <img src={banner.imageUrl} alt="imageUrl" loading="lazy" />
     </div>
   );
