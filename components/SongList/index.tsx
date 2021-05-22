@@ -1,11 +1,17 @@
+import SongListItem from './SongListItem/index'
+
 export default function SongList({
   pageInfo,
-  options,
+  songList
 }: {
   pageInfo: unknown;
-  options: unknown;
+  songList: Array<ISongListItem>;
 }) {
   return (
-    <div>???</div>
+    <div>
+      {songList.map(item => (
+        <SongListItem key={item.id} songListItemInfo={item} />
+      ))}
+    </div>
   )
 };

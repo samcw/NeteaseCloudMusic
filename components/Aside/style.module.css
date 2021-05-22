@@ -32,6 +32,7 @@
   font-size: 12px;
   color: rgb(139, 138, 138);
   padding-left: 10px;
+  user-select: none;
 }
 .menuItem {
   height: 50px;
@@ -44,5 +45,8 @@
   cursor: pointer;
 }
 .menuItem:hover {
+  background-color: #d8d7d7;
+}
+.active {
   background-color: #d8d7d7;
 }

@@ -9,6 +9,9 @@
   height: 30px;
   margin-right: 20px;
 }
+.backNext > img {
+  cursor: pointer;
+}
 .nav {
   display: flex;
   align-items: flex-start;

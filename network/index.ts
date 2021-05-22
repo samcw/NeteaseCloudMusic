@@ -20,3 +20,4 @@ export async function request(config: AxiosRequestConfig) {
     return Promise.reject(rawData.data.code);
   }
 }
+

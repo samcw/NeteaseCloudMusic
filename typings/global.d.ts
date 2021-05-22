@@ -11,3 +11,12 @@ declare interface IBannerItem {
   targetId: number,
   targetType: number
 }
+
+declare interface ISongListItem {
+  id: number,
+  name: string,
+  copywriter: string,
+  picUrl: string,
+  playCount: number,
+  trackCount: number
+}
