@@ -1,0 +1,67 @@
+.songListItem {
+  width: 48%;
+  position: relative;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(240, 240, 240);
+}
+.songListItem:hover {
+  background-color: rgb(250, 249, 249);
+}
+.songListItem:nth-child(9) {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.songListItem:nth-child(10) {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+.songListItem > div:first-child {
+  line-height: 0;
+  position: relative;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.songListItem > div > img:first-child {
+  border-radius: 5px;
+  width: 60px;
+}
+.songListItem img[alt="playicon"] {
+  position: absolute;
+  top: 25%;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 30px;
+}
+.songListItem > span {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #8b8b8b;
+  font-size: 0.8em;
+}
+.songListItemCount {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: aliceblue;
+  font-size: 13px;
+}
+.songListItemCount > img {
+  margin-right: 3px;
+}
+.songListItemName {
+  color: #646464;
+  font-size: 0.95em;
+  display: flex;
+  flex-direction: column;
+}
+.songListItemName > a {
+  font-size: 0.8em;
+  color: #8b8b8b;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.songListItemName > a:hover {
+  color: #646464;
+}

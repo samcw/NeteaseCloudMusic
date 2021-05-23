@@ -4,3 +4,14 @@
   width: 94%;
   max-width: 1140px;
 }
+.songListTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.songListWrap {
+  margin-top: 20px;
+}
+.songListTitle > span {
+  line-height: 24px;
+}

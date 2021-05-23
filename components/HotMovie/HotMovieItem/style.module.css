@@ -1,0 +1,37 @@
+.item {
+  width: 24%;
+}
+.picWrap {
+  position: relative;
+}
+.picWrap > img {
+  width: 100%;
+  border-radius: 5px;
+}
+.count {
+  position: absolute;
+}
+.songListItemCount {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: aliceblue;
+  font-size: 13px;
+}
+.songListItemCount > img {
+  margin-right: 3px;
+}
+.titleWrap {
+  display: flex;
+  flex-direction: column;
+}
+.titleWrap > span:first-child {
+  font-size: 0.9em;
+  color: #646464;
+}
+.titleWrap > span:nth-child(2) {
+  font-size: 0.8em;
+  color: #8b8b8b;
+}

@@ -1,4 +1,5 @@
 import SongListItem from './SongListItem/index'
+import styles from './style.module.css'
 
 export default function SongList({
   pageInfo,
@@ -8,7 +9,7 @@ export default function SongList({
   songList: Array<ISongListItem>;
 }) {
   return (
-    <div>
+    <div className={styles.wrap}>
       {songList.map(item => (
         <SongListItem key={item.id} songListItemInfo={item} />
       ))}

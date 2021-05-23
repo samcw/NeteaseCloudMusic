@@ -43,5 +43,6 @@
   margin: 60px 0 80px 200px;
   display: flex;
   justify-content: center;
+  overflow: auto;
 }
 

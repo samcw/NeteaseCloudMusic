@@ -1,3 +1,26 @@
 .songListItem {
-  width: 18.7%;
+  width: 18.4%;
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.songListItem > img {
+  border-radius: 5px;
+  width: 100%;
+}
+.songListItemCount {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: aliceblue;
+  font-size: 13px;
+}
+.songListItemCount > img {
+  margin-right: 3px;
+}
+.songListItemName {
+  color: #646464;
+  font-size: 0.95em;
 }
