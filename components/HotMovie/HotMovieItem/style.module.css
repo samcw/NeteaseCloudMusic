@@ -27,11 +27,16 @@
   display: flex;
   flex-direction: column;
 }
-.titleWrap > span:first-child {
+.titleWrap > a:first-child {
   font-size: 0.9em;
   color: #646464;
+  cursor: pointer;
 }
-.titleWrap > span:nth-child(2) {
+.titleWrap > a:nth-child(2) {
   font-size: 0.8em;
   color: #b4b3b3;
+  cursor: pointer;
+}
+.titleWrap > a:hover {
+  color: #646464;
 }

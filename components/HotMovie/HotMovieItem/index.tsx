@@ -16,8 +16,8 @@ export default function HotMovieItem({
         </div>
       </div>
       <div className={styles.titleWrap}>
-        <span>{hotMovieItem.name}</span>
-        <span>{hotMovieItem.artists.map(item => item.name).join('/')}</span>
+        <a>{hotMovieItem.name}</a>
+        <a>{hotMovieItem.artists.map(item => item.name).join('/')}</a>
       </div>
     </div>
   );
